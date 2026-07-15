@@ -2,14 +2,15 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "twg",
   "displayName": "Atlassian Teamwork Graph CLI",
-  "version": "1.0.24",
-  "description": "TWG CLI gives Claude Code token-efficient access to Jira, Confluence, Bitbucket, JSM, Assets, Atlas, Jira Align, Loom, Trello, Rovo, and connected third-party data sources. Use it to search work, map ownership, summarize status, triage reviews, and run handoffs. Install Atlassian Rovo MCP plugin for your usage outside of your desktop. Learn more: https://teamworkgraph.com/.",
+  "version": "1.0.0",
+  "description": "Atlassian Teamwork Graph (TWG) CLI provides access to Atlassian's enterprise knowledge & context graph across all the Atlassian products (Jira, Confluence, JSM, Trello, Rovo, Loom, Assets, Goals, Projects), and your connected third-party data sources. Use it for giving context of your work, knowledge, people, and code to Claude Code on your own machine (terminal, IDE, or desktop). Learn more: https://developer.atlassian.com/cloud/twg-cli/. For Atlassian context in cloud or remote sandboxes, install the Atlassian Rovo MCP plugin. Run /twg-setup after installing this plugin to complete setup.",
   "author": {
     "name": "Atlassian",
     "url": "https://www.atlassian.com"
   },
   "homepage": "https://developer.atlassian.com/cloud/twg-cli/",
   "repository": "https://bitbucket.org/atlassian/twg-cli",
+  "license": "Proprietary",
   "keywords": [
     "atlassian",
     "twg",
@@ -21,13 +22,14 @@
     "jsm",
     "jira service management",
     "assets",
-    "atlas",
+    "teams",
+    "goals",
+    "projects",
     "jira align",
     "loom",
     "trello",
     "rovo",
     "cli",
-    "token-efficient",
     "atlassian context"
   ]
 }
