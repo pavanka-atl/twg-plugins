@@ -51,8 +51,7 @@
     "defaultPrompt": [
       "Set up TWG CLI",
       "Summarize my work during the past month.",
-      "What PRs are waiting on me, and which reviews are stale?",
-      "I'm taking over on-call. Give me incidents, risks, runbooks, and follow-ups."
+      "What PRs are waiting on me, and which reviews are stale?"
     ],
     "brandColor": "#0052CC",
     "screenshots": []

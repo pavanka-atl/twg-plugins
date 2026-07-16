@@ -9,7 +9,7 @@
     "url": "https://www.atlassian.com"
   },
   "homepage": "https://developer.atlassian.com/cloud/twg-cli/",
-  "repository": "https://bitbucket.org/atlassian/twg-cli",
+  "repository": "https://github.com/atlassian/twg-plugins",
   "license": "Proprietary",
   "keywords": [
     "atlassian",

@@ -1,10 +1,6 @@
 ---
 name: twg-setup
-description: >
-  Install, update, authenticate, or repair `twg` for Codex, including missing CLI
-  or skills and doctor/auth follow-up. TWG gives Codex grounded work context across Jira, Confluence, Bitbucket, JSM, Assets, Slack,
-  Google Drive, and more, so it can connect tickets, docs, code, people, and decisions; surface
-  risks and dependencies; summarize progress; and keep work moving.
+description: "Install, update, authenticate, or repair `twg` for Codex, including missing CLI or skills and doctor/auth follow-up. TWG gives Codex grounded work context across Jira, Confluence, Bitbucket, JSM, Assets, Slack, Google Drive, and more, so it can connect tickets, docs, code, people, and decisions; surface risks and dependencies; summarize progress; and keep work moving."
 allowed-tools:
   - Bash
 ---
