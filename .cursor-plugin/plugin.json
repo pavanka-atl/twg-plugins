@@ -1,0 +1,23 @@
+{
+  "name": "twg",
+  "displayName": "Atlassian Teamwork Graph CLI",
+  "version": "1.0.0",
+  "description": "Grounded Atlassian work context for AI agents. TWG CLI skills let agents use the Atlassian Teamwork Graph to answer work-context questions, explain ownership and dependencies, summarize progress, and guide reviews or handoffs.",
+  "author": {
+    "name": "Atlassian"
+  },
+  "homepage": "https://developer.atlassian.com/cloud/twg-cli/",
+  "repository": "https://github.com/atlassian/twg-plugins",
+  "license": "Proprietary",
+  "keywords": [
+    "atlassian",
+    "twg",
+    "teamwork graph",
+    "jira",
+    "confluence",
+    "bitbucket",
+    "atlas"
+  ],
+  "logo": "assets/twg-logo-dark.png",
+  "skills": "./skills/"
+}

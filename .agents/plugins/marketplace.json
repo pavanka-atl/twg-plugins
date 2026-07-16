@@ -1,0 +1,22 @@
+{
+  "name": "twg-local-marketplace",
+  "interface": {
+    "displayName": "TWG Local",
+    "logo": "./assets/atlassian-logo.png",
+    "logoDark": "./assets/atlassian-logo-dark.png"
+  },
+  "plugins": [
+    {
+      "name": "twg",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

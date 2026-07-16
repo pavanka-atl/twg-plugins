@@ -24,6 +24,6 @@ Use `twg` to bring Atlassian work context into your coding agent.
 
 ## Availability
 
-- Use this plugin with Claude Code anywhere it runs on your own machine (terminal, IDE, or desktop).
+- Use this plugin with ChatGPT Work and Codex, Claude Code, or Cursor anywhere they run on your own machine (terminal, IDE, or desktop).
 - For Atlassian context in cloud or remote sandboxes, install the Atlassian Rovo MCP plugin.
 - Learn more: https://developer.atlassian.com/cloud/twg-cli/.

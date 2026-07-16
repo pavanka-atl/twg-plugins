@@ -1,13 +1,13 @@
 ---
 name: twg-setup
-description: "Install, update, authenticate, or repair `twg` for Claude Code, including missing CLI or skills and doctor/auth follow-up. TWG gives Claude Code grounded work context across Jira, Confluence, Bitbucket, JSM, Assets, Slack, Google Drive, and more, so it can connect tickets, docs, code, people, and decisions; surface risks and dependencies; summarize progress; and keep work moving."
+description: "Install, update, authenticate, or repair `twg`, including missing CLI or skills and doctor/auth follow-up. TWG gives AI agents grounded work context across Jira, Confluence, Bitbucket, JSM, Assets, Slack, Google Drive, and more, so they can connect tickets, docs, code, people, and decisions; surface risks and dependencies; summarize progress; and keep work moving."
 allowed-tools:
   - Bash
 ---
 
-# TWG Setup for Claude Code
+# TWG Setup
 
-Use the installed `twg` CLI for Claude Code. This plugin ships no binary, wrapper, or local launcher.
+Use the installed `twg` CLI. This plugin ships no binary, wrapper, or local launcher.
 Prefer `twg` on PATH; the flow below also resolves the standard launcher for a session that
 predates the install.
 
@@ -98,15 +98,15 @@ powershell -ExecutionPolicy Bypass -File "$env:TEMP\twg-install.ps1"
 "$TWG_BIN" doctor
 ```
 
-5. If Claude Code does not see TWG skills, or doctor reports a skill issue, refresh
-   them at `~/.agents/skills` and `~/.claude/skills`:
+5. If agent does not see TWG skills, or doctor reports a skill issue, refresh
+   them at the standard agent skill location:
 
 ```bash
-"$TWG_BIN" skills install --agent claude --yes
+"$TWG_BIN" skills install --yes
 ```
 
 Summarize any remaining issue plainly. After a skill install or refresh,
-run `/reload-plugins` first. If TWG skills are still unavailable, start a new Claude Code session so new skills load.
+reload or start a new agent session so new skills load.
 
 ## Continue The Original Request
 
@@ -115,9 +115,8 @@ at setup or ask the user to choose a new task.
 
 ## Things To Try
 
-Only when the user's request was setup alone, offer a few useful TWG prompts for Claude Code:
+Only when the user's request was setup alone, offer a few useful TWG prompts:
 
 - Summarize my work during the past month.
 - What PRs are waiting on me, and which reviews are stale?
 - I'm taking over on-call. Give me incidents, risks, runbooks, and follow-ups.
-- Find owners, experts, related repos, and dependencies for this work.
